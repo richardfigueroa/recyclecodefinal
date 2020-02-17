@@ -1,0 +1,111 @@
+
+h1,h2,h3{
+  color: #14ab3f;
+  font-family: Verdana,Arial,sans-serif;
+}
+
+
+body{
+  background-color: white;
+  box-sizing: border-box;
+  margin-left: 10em;
+  margin-right:10em;
+  margin-top: 0em;
+  margin-bottom: 5em;
+}
+
+header{
+  padding-top: 10px;
+  text-align: center;
+}
+
+header h1{
+  display:inline;
+  text-align:center;
+}
+
+header img{
+  vertical-align: middle;
+
+}
+
+
+nav{
+  background-color: #fbefb3;
+  font-family: Verdana,Arial,sans-serif;
+  top margin: 0%;
+}
+
+nav ul{
+
+  display: block;
+  list-style-type: none;
+  margin-top: 0em;
+  padding:5px 10%;
+  text-align: center;
+
+}
+
+nav li{
+
+  display:inline-block;
+  padding-left: 3em;
+  text-align: center;
+}
+
+nav ul li a:hover{
+    color:#ec834a;
+  text-decoration: underline;
+}
+
+nav ul li a:active{
+  color:black;
+  text-decoration: underline;
+}
+
+nav ul li a{
+    color:#14ab3f;
+    text-decoration: none;
+}
+
+ section ul#first{
+   line-height: 3em;
+   list-style-image: url(images/recycle_sm1.jpg);
+ }
+
+section ul#second{
+  list-style-type: circle;
+}
+
+figure{
+  float:right;
+}
+
+
+.colouredText {
+  color:#b8860b;
+}
+
+.link{
+  background-color: #fbefb3;
+  color: purple;
+}
+
+
+span{
+  text-decoration: underline;
+  text-decoration-style: double;
+  font-style: italic;
+}
+
+footer
+{
+  background-image:url(images/ricepaper.png);
+  border-top:2px solid black;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer p{
+  font-style: italic;
+}
